@@ -1,0 +1,80 @@
+.fire{
+    background-color: red;
+  }
+  
+  .flying{
+    background-color: aqua;
+  }
+
+  .blaze{
+      background-color: rgb(157, 29, 123);
+  }
+
+  .grass{
+      background-color: greenyellow;
+  }
+
+  .poison{
+      background-color: brown;
+  }
+  .water{
+      background-color: blue;
+  }
+
+  .torrent{
+    background-color:blueviolet;
+
+  }
+
+  .rain-dish{
+    background-color:goldenrod;
+  }
+
+  .solar-power{
+    background-color:yellow;
+  }
+
+  .bug{
+    background-color:rgb(146, 54, 54)
+  }
+
+  .shield-dust{
+    background-color: silver;
+  }
+
+  .run-away{
+    background-color:orangered;
+  }
+
+  .shed-skin{
+    background-color:pink
+  }
+
+  .compound-eyes{
+    background-color:lightcoral
+  }
+
+  .tinted-lens{
+    background-color:lightgreen;
+  }
+
+  .swarm{
+      background-color: rgb(120, 120, 206);
+  }
+
+  .sniper{
+    background-color:rgb(105, 38, 182);
+  }
+
+  .normal{
+      background-color: cornflowerblue;
+  }
+
+  .overgrow{
+    background-color:aquamarine;
+
+  }
+
+  .chlorophyll{
+    background-color:#ff007b;
+  }

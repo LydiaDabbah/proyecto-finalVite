@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+  
+}
+
+
+.barra-layout{
+  display: float;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(249, 249, 124) ;
+  
+}
+
+.logo-pokemon img{
+  width: 160px;
+  float: left;
+  margin:0px 20px;
+  padding-top: 0px;
+}
+
+.links-navbar{
+  margin-right: 15px;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+.boton-link button{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding:0px 20px;
+  display: flex;
+  width: auto;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(249, 249, 124);
+  border: none;
+
+
+}
+
+.boton-link :hover{
+ background-color: rgb(242, 242, 63);
+  
+}
+
+.boton-link link{
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.boton-type{
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width:auto;
+  border: none;
+  
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+
+.container-home{
+  display:block;
+  align-content: center;
+
+}
+
+.home-inputbox{
+  display: flex;
+  align-items: center;
+
+}
+
+.contenedor-profile{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+
+  width: 700px;
+  height: 500px;
+ 
+}
+
+.img-profile{
+  width: 350px;
+ 
+
+}
+.img-profile img{
+  width: 350px;
+  background-color: rgba(221, 248, 125, 0.152);
+  border-radius: 30px;
+}
+
+.info-profile{
+  padding: 15px;
+  width: 300px;
+}
+
+.name-profile{
+  display: flex;
+
+ justify-content: center;
+}
+
+.name-profile h1{
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin:30px 0 0 0;
+}
+
+.id-profile{
+  display: flex;
+ 
+  justify-content: center;
+}
+.id-profile h6{
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  margin:0px 0 50px 0;
+  color: rgba(4, 4, 4, 0.808);
+}
+
+.boton-link link{
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.boton-link-next button{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding:0px 20px;
+  display: flex;
+  width: auto;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(238, 235, 190);
+  border: none;
+  border-radius: 5px;
+
+}
+
+.next button{
+  position: fixed;
+  top:80px;
+  right: 30px;
+ background-color: beige;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.prev button{
+  position: fixed;
+  top:80px;
+ left: 30px;
+ background-color: beige;
+ border-radius: 5px;
+ height: 30px;
+}
